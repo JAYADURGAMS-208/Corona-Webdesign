@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+   enter the country name <input type="text" name="country" >
+    <input type="submit" value="search">
+</form>
+{% for case,value in cases.items %}
+<li>{{case}}--{{value}}</li>
+{% endfor %}
+</body>
+</html>

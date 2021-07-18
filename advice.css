@@ -1,0 +1,26 @@
+body{
+color:white;
+background-image:linear-gradient(150deg,#000000,#CC1100,#000000);
+}
+.h1{
+text-align:center;
+font-size:50px;
+color:yellow;
+}
+img{
+padding:20px;
+}
+summary{
+cursor:pointer;
+padding:20px;
+border:2px blue solid;
+float:left;
+width:50%;
+}
+.p1{
+padding:20px;
+float:right;
+width:50%;
+border:2px red solid;
+}
+
